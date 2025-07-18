@@ -35,4 +35,4 @@ jobs:
 
       # 5. Run Playwright tests
       - name: Run tests
-        run: npm run formPageHeadless
+        run: npx playwright test form_page.spec.ts
